@@ -17,3 +17,7 @@ resource "azurerm_resource_group" "rg" {
   name     = "dog-branch"
   location = "westus"
 }
+resource "azurerm_resource_group" "rg" {
+  name     = "dev-branch"
+  location = "westus"
+}
